@@ -22,3 +22,19 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+###Setup
+
+*Install dependencies:
+bundle install
+
+*Create and migrate database:
+bin/rails db:create db:migrate
+
+*Run Server
+bin/rails s -p 3001
+
+*Run Tests
+bundle exec rspec
+
+All tests should pass with 0 failures.
